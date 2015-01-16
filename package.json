@@ -1,0 +1,37 @@
+{
+  "name": "Newtree",
+  "version": "0.0.1",
+  "description": "Project to make a few tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunocasanova/Newtree.git"
+  },
+  "keywords": [
+    "brunocasanova",
+    "newtree"
+  ],
+  "author": "Bruno Casanova <deftonicks_me@hotmail.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/brunocasanova/Newtree/issues"
+  },
+  "homepage": "https://github.com/brunocasanova/Newtree",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "ect": "^0.5.9",
+    "express": "^4.11.0",
+    "express-session": "^1.10.1",
+    "less": "^2.2.0",
+    "mysql": "^2.5.4"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "node-inspector": "^0.8.3",
+    "sinon": "^1.12.2"
+  }
+}
