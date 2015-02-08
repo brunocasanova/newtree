@@ -4,9 +4,8 @@
   "description": "Project to make a few tests",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --debug index.js",
-    "test": "mocha",
-    "compileless": "lessc /lib/assets/css/style.less > /lib/assets/css/style.css"
+    "start": "grunt && nodemon --debug index.js",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -35,6 +34,11 @@
   },
   "devDependencies": {
     "chai": "^1.10.0",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
     "mocha": "^2.1.0",
     "morgan": "^1.5.1",
     "node-inspector": "^0.8.3",
