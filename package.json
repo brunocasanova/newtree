@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "Project to make a few tests",
   "main": "index.js",
-   "scripts": {
+  "scripts": {
     "start": "nodemon --debug index.js",
     "test": "mocha",
-    "compileless": "lessc assets/css/style.less > assets/css/style.css "
+    "compileless": "lessc /lib/assets/css/style.less > /lib/assets/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "express-session": "^1.10.1",
     "less": "^2.2.0",
     "mysql": "^2.5.4",
+    "sequelize": "^2.0.0-rc8",
     "serve-favicon": "^2.2.0"
   },
   "devDependencies": {
